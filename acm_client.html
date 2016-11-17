@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8"/>
+<title>Random Moments!</title>
+<meta name="author" content="(fenrir)"/>
+<style type="text/css">
+.underline { text-decoration: underline; }
+</style>
+<link rel="stylesheet" href="file:///home/fenrir/.emacs.d/reveal.js/css/reveal.css"/>
+
+<link rel="stylesheet" href="file:///home/fenrir/.emacs.d/reveal.js/css/theme/blood.css" id="theme"/>
+
+<link rel="stylesheet" href="./acm.css"/>
+
+<!-- If the query includes 'print-pdf', include the PDF print sheet -->
+<script>
+    if( window.location.search.match( /print-pdf/gi ) ) {
+        var link = document.createElement( 'link' );
+        link.rel = 'stylesheet';
+        link.type = 'text/css';
+        link.href = 'file:///home/fenrir/.emacs.d/reveal.js/css/print/pdf.css';
+        document.getElementsByTagName( 'head' )[0].appendChild( link );
+    }
+</script>
+<meta name="description" content="Random Moments">
+</head>
+<body>
+<div class="reveal">
+<div class="slides">
+<section id="sec-title-slide"><h1>Random Moments!</h1><h3><a href="mailto:Fenrir (@vvillar)">Fenrir (@vvillar)</a></h3>
+</section>
+
+<section>
+<section id="slide-orgfce9158">
+<h2 id="orgfce9158">Qué hacer cuando no sabes qué hacer - by @Ashida</h2>
+</section>
+</section>
+<section>
+<section id="slide-org39fc9d9">
+<h2 id="org39fc9d9">Buscar en Google&#x2026;</h2>
+
+<div class="figure">
+<p><img src="./google.jpeg" alt="google.jpeg" />
+</p>
+</div>
+</section>
+</section>
+<section>
+<section id="slide-org1a8c995">
+<h2 id="org1a8c995">Preguntar a alguien que sepa más que nosotros</h2>
+
+<div class="figure">
+<p><img src="./rock.jpeg" alt="rock.jpeg" />
+</p>
+</div>
+</section>
+</section>
+<section>
+<section id="slide-org4ec0787">
+<h2 id="org4ec0787">Improvisar</h2>
+<p class="fragment roll-in">
+Improvisar significa realizar algo sin haberlo preparado con anterioridad.
+</p>
+</section>
+</section>
+<section>
+<section id="slide-orgfed8ea1">
+<h2 id="orgfed8ea1">Ejemplos</h2>
+<div class="outline-text-2" id="text-orgfed8ea1">
+</div></section>
+<section id="slide-orgae022ea">
+<h3 id="orgae022ea">Música</h3>
+
+<div class="figure">
+<p><img src="./minneman.jpg" alt="minneman.jpg" />
+</p>
+</div>
+</section>
+<section id="slide-orgfd82b42">
+<h3 id="orgfd82b42">Teatro</h3>
+
+<div class="figure">
+<p><img src="./teatro.jpeg" alt="teatro.jpeg" />
+</p>
+</div>
+</section>
+<section id="slide-org1d9563a">
+<h3 id="org1d9563a">Otras artes</h3>
+</section>
+<section id="slide-org91e4809">
+<h3 id="org91e4809">Charlas y presentaciones</h3>
+</section>
+<section id="slide-org53deea3">
+<h3 id="org53deea3">E incluso con la vida misma</h3>
+
+</section>
+</section>
+<section>
+<section id="slide-org5b9eba3">
+<h2 id="org5b9eba3">Consejos a la hora de improvisar en público</h2>
+<p class="fragment roll-in">
+No quedarse en blanco, siempre hay algo que decir.
+</p>
+<p class="fragment roll-in">
+Una charla improvisada llega mejor al público que algo altamente preparado.
+</p>
+<p class="fragment roll-in">
+Sabes más de lo que crees.
+</p>
+<p class="fragment roll-in">
+No es más que una mera extensión de las decisiones que tomamos todos los días&#x2026;
+</p>
+<p class="fragment roll-in">
+<b>Tener las ideas claras</b>
+</p>
+</section>
+</section>
+</div>
+</div>
+<script src="file:///home/fenrir/.emacs.d/reveal.js/lib/js/head.min.js"></script>
+<script src="file:///home/fenrir/.emacs.d/reveal.js/js/reveal.js"></script>
+
+<script>
+// Full list of configuration options available here:
+// https://github.com/hakimel/reveal.js#configuration
+Reveal.initialize({
+
+controls: true,
+progress: true,
+history: true,
+center: true,
+slideNumber: 'h/v',
+rollingLinks: false,
+keyboard: true,
+overview: true,
+width: 1200,
+height: 800,
+margin: 0.10,
+minScale: 0.50,
+maxScale: 2.50,
+
+theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
+transition: Reveal.getQueryHash().transition || 'linear', // default/cube/page/concave/zoom/linear/fade/none
+transitionSpeed: 'default',
+multiplex: {
+    secret: null, // null if client
+    id: '', // id, obtained from socket.io server
+    url: '' // Location of socket.io server
+},
+
+// Optional libraries used to extend on reveal.js
+dependencies: [
+{ src: './acm.js', async: true },
+ { src: 'file:///home/fenrir/.emacs.d/reveal.js/plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+ { src: 'file:///home/fenrir/.emacs.d/reveal.js/plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+ { src: 'file:///home/fenrir/.emacs.d/reveal.js/plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } },
+ { src: 'file:///home/fenrir/.emacs.d/reveal.js/plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+ { src: '', async: true },
+ { src: 'file:///home/fenrir/.emacs.d/reveal.js/plugin/multiplex/client.js', async: true },
+ { src: 'file:///home/fenrir/.emacs.d/reveal.js/lib/js/classList.js', condition: function() { return !document.body.classList; } }]
+});
+</script>
+</body>
+</html>

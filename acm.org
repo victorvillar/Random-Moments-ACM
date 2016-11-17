@@ -1,0 +1,58 @@
+#+TITLE: Random Moments!
+#+EMAIL: Fenrir (@vvillar)
+
+#+LANGUAGE: es
+#+SELECT_TAGS: export
+#+EXCLUDE_TAGS: noexport
+#+LATEX_CLASS_OPTIONS: [a4paper,hidelinks]
+#+LATEX_CLASS_OPTIONS: [...,hidelinks]
+
+#+OPTIONS: reveal_title_slide:"<h1>%t</h1><h3>%e</h3>"
+#+OPTIONS: reveal_center:t reveal_progress:t reveal_history:t reveal_control:t reveal_created:nil
+#+OPTIONS: reveal_rolling_links:nil reveal_keyboard:t reveal_overview:t num:nil
+#+OPTIONS: reveal_slide_number:h/v
+#+OPTIONS: reveal_width:1200 reveal_height:800
+#+REVEAL_MARGIN: 0.1
+#+REVEAL_MIN_SCALE: 0.5
+#+REVEAL_MAX_SCALE: 2.5
+#+REVEAL_TRANS: linear
+#+REVEAL_THEME: blood
+#+REVEAL_HLEVEL: 1
+#+REVEAL_EXTRA_CSS: ./acm.css
+#+REVEAL_HEAD_PREAMBLE: <meta name="description" content="Random Moments">
+#+REVEAL_PLUGINS: (markdown notes zoom multiplex classList)
+#+REVEAL_EXTRA_JS: { src: './acm.js', async: true }
+
+#+OPTIONS: toc:nil
+# #+OPTIONS: reveal_single_file:t
+
+* Qué hacer cuando no sabes qué hacer - by @Ashida
+* Buscar en Google...
+[[./google.jpeg]]
+* Preguntar a alguien que sepa más que nosotros
+[[./rock.jpeg]]
+* Improvisar
+#+ATTR_REVEAL: :frag roll-in
+Improvisar significa realizar algo sin haberlo preparado con anterioridad.
+* Ejemplos 
+** Música
+[[./minneman.jpg]]
+** Teatro
+[[./teatro.jpeg]]
+** Otras artes
+** Charlas y presentaciones
+** E incluso con la vida misma
+
+* Consejos a la hora de improvisar en público
+#+ATTR_REVEAL: :frag roll-in
+No quedarse en blanco, siempre hay algo que decir.
+#+ATTR_REVEAL: :frag roll-in
+Una charla improvisada llega mejor al público que algo altamente preparado.
+#+ATTR_REVEAL: :frag roll-in
+Sabes más de lo que crees.
+#+ATTR_REVEAL: :frag roll-in
+No es más que una mera extensión de las decisiones que tomamos todos los días...
+#+ATTR_REVEAL: :frag roll-in
+*Tener las ideas claras*
+
+
